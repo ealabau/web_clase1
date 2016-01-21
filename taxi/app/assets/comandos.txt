@@ -1,0 +1,58 @@
+    1  rails new taxi -d mysql
+    2  mysql-ctl
+    3  mysql-ctl start
+    4  mysql-ctl sli
+    5  mysql-ctl cli
+    6  cd taxi
+    7  bundle install
+    8  ll
+    9  ls
+   10  nano
+   11  nano Gemfile
+   12  rails server -b $IP -p $PORT
+   13  mysql-ctl cli
+   14  rake db:create
+   15  mysql-ctl cli
+   16  cls
+   17  clean
+   18  cls
+   19  rails server -b $IP -p $PORT
+   20  history
+   21  history > comandos.txt
+    1  rails new taxi -d mysql
+    2  mysql-ctl
+    3  mysql-ctl start
+    4  mysql-ctl sli
+    5  mysql-ctl cli
+    6  cd taxi
+    7  bundle install
+    8  ll
+    9  ls
+   10  nano
+   11  nano Gemfile
+   12  rails server -b $IP -p $PORT
+   13  mysql-ctl cli
+   14  rake db:create
+   15  mysql-ctl cli
+   16  cls
+   17  clean
+   18  cls
+   19  rails server -b $IP -p $PORT
+   20  history
+   21  history > comandos.txt
+   22  ls
+   23  mv /app/assets
+   24  mv comandos.txt /app/assets
+   25  mv comandos.txt app/assets/
+   26  cd app
+   27  cd assets/|
+   28  cd assets/
+   29  ls
+   30  w
+   31  ls
+   32  rails server -b $IP -p $PORT
+   33  rails g scaffold User name:string email:string birthday:date admin:boolean
+   34  rake db:migrate
+   35  rails server -b $IP -p $PORT
+   36  cat comandos.txt 
+   37  history >> comandos.txt 
